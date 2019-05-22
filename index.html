@@ -3,17 +3,22 @@
 
 <head>
 
-<style>
-    .cards>h1 {
-    text-align: center;
-    margin: 100px auto;
-    padding: 20px 0;
-    margin-top: 30px;
-    background: rgb(0, 0, 0);
-    color: black;
-    width: 100%;
-}
-</style>
+    <style>
+        .break {
+            height: 200px;
+            margin-top: 150px;
+            margin-bottom: -20px;
+            border: 50px solid rgb(0, 0, 0);
+            color: white;
+            background: rgb(0, 0, 0);
+
+        }
+
+        .cards>h1 {
+            background: rgb(0, 0, 0);
+            color: black;
+        }
+    </style>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,10 +44,10 @@
 
     <nav>
         <ul id="navlist">
-                <li id='tech' onclick="scrol('technology')" class='items'>Technologies</li>
-                <li id="projectsButton" onclick="scrol('projects')" class='items'>Projects</li>
-                <li id='me' onclick="body.scrollIntoView()" class='items'>About me</li>
-                <li id="contactButton" onclick="scrol('contact')" class='items'>Contact</li>
+            <li id='me' onclick="body.scrollIntoView()" class='items'>About me</li>
+            <li id="projectsButton" onclick="scrol('projects')" class='items'>Projects</li>
+            <li id='tech' onclick="scrol('technology')" class='items'>Technologies</li>
+            <li id="contactButton" onclick="scrol('contact')" class='items'>Contact</li>
         </ul>
     </nav>
     <main class="cards">
@@ -59,30 +64,7 @@
             into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
             release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
             software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
 
-            Where does it come from?
-
-            Contrary to popular belief,s standard dummy text ever since the 1500s, when an unknown printer took a galley
-            of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
-
-            Where does it come from?
-            s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
-
-            Where does it come from?
-            Lorem Ipsum is not simply random text. It has roots in a piece of classical
-            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-            Hampden-Sydney College in Virginia, loo
 
             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
             Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -95,7 +77,7 @@
     </div>
     <div class="cards" id="projects">
 
-            <h1>lets talk about what I do !</h1>
+        <h1>lets talk about what I do !</h1>
         <div class="gallery">
             <img id="projectImg" src="../me.jpg" alt="">
             <img id="projectImg" src="../me.jpg" alt="">
@@ -113,11 +95,11 @@
             Hampden-Sydney College </p>
     </div>
     <div class="break">
-        <h1>thanks for watching, there is more !</h1>
+        <h1>thanks for watching, but there is more !</h1>
     </div>
-    
+
     <div class="cards" id="technology">
-          
+
         <h1>things I use</h1>
         <div class="gallery">
             <img id="techImg" src="tech2.png" alt="">
@@ -126,30 +108,31 @@
             <img id="techImg" style="padding: 10px 40px" src="logo.png" alt="">
             <img id="techImg" style="padding: 0 40px" src="bootstrap-png-bootstrap-512.png" alt="">
             <img id="techImg" style="padding: 0 40px" src="jquery-logo-png--800.gif" alt="">
+            <img id="techImg" style="padding: 10px 40px" src="mongo.png" alt="">
 
         </div>
-        
+
     </div>
 
 
     <div class="break">
-        <h1>thanks for watching, there is more !</h1>
+        <h1>!ow, and the last thing...</h1>
     </div>
     <div class="cards" id="contact">
         <h1>where to find me...</h1>
         <div class="gallery social">
-            <a href="/notifications/">
-                <i class="fab fa-instagram fa-5x"></i>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shalashaska85x/">
+                <i class="fab fa-instagram fa-3x"></i>
             </a>
-            <a href="https://www.facebook.com/UnAssignedWrock">
-                <i class="fab fa-facebook-square fa-5x"></i>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/UnAssignedWrock">
+                <i class="fab fa-facebook-square fa-3x"></i>
 
             </a>
-            <a href="">
-                <i class="fab fa-git fa-5x"></i>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/hide85x?tab=repositories">
+                <i class="fab fa-git fa-3x"></i>
             </a>
-            <a href="">
-                    <i class="fas fa-envelope-open-text fa-5x"></i>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:hide85x@gmail.com">
+                <i class="fas fa-envelope-open-text fa-3x"></i>
             </a>
         </div>
         <p id="text">
