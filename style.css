@@ -219,9 +219,9 @@ a {
 }
 
 
-@media (max-width:800px) {
+@media (max-width:500px) {
     html, body, *, div, h1 {
-        font-size: 1.1em;
+        font-size: 0.8em;
         text-align: center
     }
     .cards {
@@ -230,13 +230,10 @@ a {
         font-size: 1em
     }
     #meme {
-        margin-top: 180px;
+        margin-top: 50px;
 
     }
     #navlist {
-        flex-direction: column;
-        justify-content: center;
-        align-content: center
     }
     #text {
         margin: 5px;
@@ -246,7 +243,10 @@ a {
         height: 130px !important;
     }
     .items {
-        font-size: 0.7em;
+        height: 5px;
+        min-width: 40px;
+        width:100px;
+
     }
     .gallery {
         margin: 0
@@ -256,7 +256,9 @@ a {
         height: 260px !important;
     }
     .break {
-        margin: 30px 0
+        margin: 10px 0;
+        border: 20px solid rgb(0, 0, 0, 0.6);
+
     }
     i {
         font-size: 2em !important
