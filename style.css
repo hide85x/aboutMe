@@ -1,5 +1,5 @@
 HTML {
-    background: url('../forest.jpg');
+    background: url('./forest.jpg');
     
     background-size: cover;
     background-repeat: no-repeat;
