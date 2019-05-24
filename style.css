@@ -9,7 +9,7 @@ HTML {
 }
 
 body{
-    scroll-behavior:smooth;
+    scroll-behavior:smooth; /* do przewijania strony*/
     font-size: 20px;
     font-family: 'Eczar', serif;
     position: absolute;
@@ -106,7 +106,7 @@ p {
 .break {
     margin-top:80px ;
     width: 100%;
-    border: 50px solid rgb(0, 0, 0, 0.6);
+    border: 70px solid rgb(0, 0, 0, 0.6);
     color: white;
     background: rgb(0, 0, 0);
     
@@ -245,7 +245,7 @@ a {
         margin: 50px 0;
     }
     #meme {
-        margin-top: 50px;
+        margin-top: 120px;
 
     }
     #navlist {
