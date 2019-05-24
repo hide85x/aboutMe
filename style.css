@@ -229,7 +229,7 @@ a {
 
 
 
-@media (max-width:500px) {
+@media (max-width:1300px) {
     html, body, *, div, h1 {
         font-size: 0.9em;
         text-align: center;
