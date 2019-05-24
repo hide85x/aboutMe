@@ -119,6 +119,13 @@ p {
     align-items: center
 
 }
+/* #techImg:hover {
+transform: scale(1.1);
+box-shadow: 0 0 15px 5px;
+background: rgba(245, 245, 245, 0.63)
+
+    
+} */
 .gallery> img {
     transform: rotate(-8deg);
     padding: 20px;
