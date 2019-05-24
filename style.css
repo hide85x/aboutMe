@@ -9,6 +9,7 @@ HTML {
 }
 
 body{
+    scroll-behavior:smooth;
     font-size: 20px;
     font-family: 'Eczar', serif;
     position: absolute;
